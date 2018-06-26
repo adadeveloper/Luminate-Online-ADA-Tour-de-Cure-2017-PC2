@@ -1,0 +1,678 @@
+html{
+background-color:#FFF !important;	
+}
+.yui-skin-ux #doc2 {
+  min-width: 300px;
+  width:100%;
+  border:none;
+}
+#yui-main{
+/*max-width:1200px;
+min-width:320px;*/
+width:100% !important;
+}
+/*.hidden-form{display:none !important;}*/
+strong,b{font-weight:bold !important;}
+#report-personal-sidebar #top-donors, #report-team-sidebar #top-team-donors, #companypage-sidebar,#dashboard-sidebar{
+display:none;	
+}
+.yui-skin-ux ul.subnav li {
+  padding: 5px;
+}
+
+
+#sidebar{
+/*width:320px !important;*/
+display:none;
+padding:10px;
+position:fixed;
+height:100%;
+background-color:#496C89;
+/*top:0;*/
+/*top:139px;*/
+top:80px;
+z-index:500;
+background:url(../../ws/so/so2016/img/pc2/sidebarbg2.png) 0 0 repeat;
+}
+#sidebar .side-links a {
+  color: #FFF;
+}
+/*#sidebar,*/ #content, #yui-main{float:none !important;margin:0 auto !important;}
+
+span#so16goalcopy {
+    font-size: 14pt;
+}
+
+.yui-skin-ux #hd-nav a, .yui-skin-ux #hd-nav a:link, .yui-skin-ux #hd-nav a:visited {
+    font-size: 12px;
+}
+
+/*team page sidebar*/
+#team-info-block h1 {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+#teampage-sidebar h1 {
+  font-size: 14px !important;
+  padding-left: 10px;  
+}
+#teampage-sidebar h3.label{
+color:#000;
+text-align:left;	
+}
+#teampage-sidebar select{
+width:150px;
+padding:5px;
+}
+#sidebar-actions{width:180px;}
+#edit-team-info-block{width:200px; margin-left:auto !important;margin-right:auto !important}
+/*team page sidebar*/
+.yui-skin-ux #hd{
+	margin:0;
+	position:fixed;
+	width:100%;
+	top:0;
+	z-index:200;
+	background-color:#FFF;
+}
+div.ux-main div#yui-main div#content {
+  margin-top:138px !important;
+}
+
+.yui-skin-ux #content.yui-b {
+padding: 0px 0px 30px 0px;
+}
+.yui-skin-ux #content.yui-b h1 {
+  padding-top: 25px;
+}
+div.ux-main div.dashboard-bd {
+  background-color:transparent;
+  border:none;  
+}
+div.ux-main div#yui-main div#content {
+border:none;
+}
+#yui-history-iframe {
+  position: absolute;  
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  visibility: hidden;
+}
+#yui-main-table{max-width:1000px;min-width:300px;width:100%;}
+.yui-skin-ux .yui-dt tr th, .yui-skin-ux .yui-dt tr td {
+ padding:0;
+}
+
+.centerDiv{
+max-width:1024px;
+min-width:300px;
+width:100%;
+position:relative;
+margin:0 auto;	
+}
+.centerDiv-md{
+max-width:900px;
+min-width:300px;
+width:100%;
+position:relative;
+margin:0 auto;		
+}
+.clearDiv{
+clear:both;
+height:5px;	
+}
+
+/*Magnific Popup*/
+.white-popup {
+  position: relative;
+  background: /*#FFF*/#0389AD;
+  color:#FFF;
+  padding: 20px;
+  width:auto;
+  max-width: 300px;
+  margin: 20px auto;
+  /*border-radius:8px;*/
+}
+.white-popup-big {
+  position: relative;
+  background: /*#FFF*/#0389AD;
+  color:#FFF;
+  padding: 20px;
+  width:auto;
+  max-width: 600px;
+  min-width:280px;
+  margin: 20px auto;
+  /*border-radius:8px;*/
+  line-height:20px;
+}
+.white-popup p, .white-popup-big p{color:#FFF;font-size:13pt;}
+.emailaddr{
+color:/*#C41230*/#FFF;	
+}
+.white-popup-big h1{
+font-size:16px !important;
+color:#FFF;	
+}
+.mpopredbtn{
+background-color:/*#C41230*/transparent;
+color:#FFF !important;
+text-decoration:none;
+font-weight:bold;
+padding:10px;
+border:#FFF solid 1px;
+border-radius:5px;
+text-align:center;
+}
+button.mfp-close {
+background:transparent !important;
+border:none !important;
+cursor: pointer;
+color: #FFF !important;
+font-size: 20pt;
+width: 150px;
+padding:0 !important;
+}
+/*Magnific Popup*/
+#captainsMessage div, #captainsMessage h3{color:#FFF; margin-bottom:10px;}
+a#msg_cat_captains_message_edit_link {
+  color: #FFF;
+  border: 1px solid #FFF;
+  padding: 5px 10px;
+}
+#captainsMessageEditText{color:#000;}
+/*offline gift*/
+#payment-radio-choices label{text-align:left !important;}
+#offlinepaymentactions{text-align:center;}
+#check-block {
+  display: none !important;
+}
+#gift_payment_type_later_block {
+  display: none;
+}
+
+/*logo*/
+#so16logo{max-width:225px;min-width:200px;width:100%;float:left;}
+#so16logo img {
+  max-width: 225px;
+  width: 100%;
+  height: auto;
+}
+/*progress bar*/
+#bd-personal-progress, #bd-team-progress,#bd-company-progress{background-color:#000;}
+div.progress-bar-outer{margin-left:auto;margin-right:auto;width:95%;}
+div.progress-bar-inner{
+	background-color:#C41230;
+	border-color:#C41230;
+  -moz-box-shadow: 0 1px 1px #C41230 inset;
+  -webkit-box-shadow: 0 1px 1px #C41230 inset;
+  box-shadow: 0 1px 1px #C41230 inset;
+}
+#adadashboardevtsummary,#so16progressraisedbox, #so16progresspctbox, #so16progressraisedbox div, #so16progresspctbox div, #so16progressraisedboxteam, #so16progresspctboxteam, #so16progressraisedboxteam div, #so16progresspctboxteam div, #so16progressraisedboxcompany, #so16progresspctboxcompany, #so16progressraisedboxcompany div, #so16progresspctboxcompany div {color:#FFF;}
+
+#so16progressraisedbox, #so16progresspctbox, #so16progressraisedboxteam, #so16progresspctboxteam, #so16progressraisedboxcompany, #so16progresspctboxcompany {width:300px;text-align:center;margin-bottom:20px;}
+
+#so16progressraisedbox, #so16progressraisedboxteam, #so16progressraisedboxcompany {float:left;}
+#so16progresspctbox, #so16progresspctboxteam, #so16progresspctboxcompany  {float:right;}
+
+#so16raisedamtcopy, #so16pctprogresscopy, #so16raisedamtcopyteam, #so16pctprogresscopyteam,  #so16raisedamtcopycompany, #so16pctprogresscopycompany {color:#FFF;}
+#msg_cat_change_goal_link, #msg_cat_team_report_change_goal_link{
+  color: #FFF;
+  display: block;
+  padding: 10px;
+  border: solid 1px #FFF;
+  width: 100px;
+}
+#companyfundraiseprogress, #personalfundraiseprogress, #teamfundraiseprogress {display:none;}
+/*home dashboard*/
+#msg_cat_overview_label,#msg_cat_progress_bar_title,#msg_cat_team_progress_bar_title,#msg_cat_company_progress_bar_title{display:none;}
+/*top nav*/
+#ctamobilemenu{
+display:none;
+color:#000; 
+font-size:25pt;
+float:right;
+margin-top:20px;
+margin-right:20px;
+cursor:pointer;
+}
+#hd-small, #hd-branding, #hd-etc, #bd-what-next {display:none !important;}
+.yui-skin-ux #hd-nav {
+  margin: 0 0 -2px 2.5em; 
+}
+.yui-skin-ux .ux-hd-row {
+  margin-top: 0px;
+  clear: none;
+  float:left;
+  max-width:780px;
+  min-width:300px;	
+  width:100%;
+}
+.yui-skin-ux #hd-nav li {
+  background-color:transparent;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  text-align:center;
+}
+#submenubarADA{
+  height:60px;
+  background: url(../../ws/so/so2016/img/transpblue.png) repeat scroll 0 0;
+}
+/*custom menu*/
+.yui-skin-ux #hd-nav .selected {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border:none;
+  background-color:#0289AE;
+}
+.yui-skin-ux #hd-nav a, .yui-skin-ux #hd-nav a:link, .yui-skin-ux #hd-nav a:visited {
+  color: #C41230;
+  padding:8px;
+  display:inline;
+}
+.yui-skin-ux #hd-nav .selected a, .yui-skin-ux #hd-nav .selected a:link, .yui-skin-ux #hd-nav .selected a:visited {
+  color: #FFF;
+  /*padding:8px;*/
+  display:inline;
+}
+.fa {color:#C41230;}
+.yui-skin-ux #hd-nav .selected .fa{color:#FFF;}
+ul#hd-nav {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -moz-border-radius-topright: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  -webkit-border-top-left-radius: 0px;  
+}
+
+ul#hd-nav li {
+  display: inline;
+  width:/*140px*/ 120px;
+}
+
+ul#hd-nav li a {
+  line-height: 79px;
+  text-decoration: none; 
+  margin: 0;
+  padding: 8px;
+  -moz-border-radius-topright: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  -webkit-border-top-left-radius: 0px;     
+}
+
+/* APPLIES THE ACTIVE STATE */
+ul#hd-nav .current a, ul#hd-nav li:hover > a  {
+  color: #fff;
+  text-decoration: none;
+  -moz-border-radius-topright: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  -webkit-border-top-left-radius: 0px; 
+}
+
+/* THE SUBMENU LIST HIDDEN BY DEFAULT */
+ul#hd-nav  ul {
+  display: none;
+  position: absolute;    
+  max-width:400px;
+  min-width:300px;
+  width:100%; 
+  height: 60px;
+  /*margin:0 auto;*/
+  margin:0;
+  -moz-border-radius-bottomright: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -webkit-border-bottom-left-radius: 0px; 
+  background-color: rgb(2, 137, 174);
+  /*left:320px;*/
+
+  /*left:0;*/
+  /*right:2px;*/
+  padding-right:10px;
+  padding-left:10px;
+  text-align:center;
+  z-index:1000;
+}
+
+/* WHEN THE FIRST LEVEL MENU ITEM IS HOVERED, THE CHILD MENU APPEARS */
+ul#hd-nav li:hover > ul {  
+  /*display: block;*/  
+}
+ul#hd-nav li > ul > li, ul#hd-nav li:hover > ul > li{
+	/*width:140px;*/
+	width:auto;
+	margin-left:8px !important;
+	display:inline;	
+	
+}
+ul#hd-nav li > ul > li > a{
+	border:solid #FFF 1px;
+}
+.yui-skin-ux #hd-nav ul > li > a, .yui-skin-ux #hd-nav ul > li > a:link, .yui-skin-ux #hd-nav ul > li > a:visited{
+  line-height: 60px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0;
+  padding: 8px;
+}
+
+
+/*Share My Page Bar*/
+#shareMyPageBar{height:inherit;}
+#shareMyPageContentBox{float:right;background-color:rgb(2, 137, 174) /*#005269*/;padding:12px;height:inherit;text-align:right;/*width:90%*/width:60%;}
+#shareMyPageContentBox input[type="text"]{padding:8px;color:rgb(0, 126, 164);width:45%;cursor:text;}
+#shareMyPageContentBox .fa{color:#FFF;border:solid 1px #FFF; width:35px; text-align:center;padding:5px;}
+
+/*Achievement Badge*/
+#myachievementADA h3{color:#C41230;font-weight:bold;margin-bottom:10px;margin-top:10px;font-size:30px;}
+.badgeInstance {
+  /*width: 180px;*/
+  width:80px;
+  margin: 5px;
+  display: inline-block;
+  zoom: 1;
+  height: auto;
+}
+#adadashboardevtsummary{font-size:15pt;font-weight:bold;}
+
+#SOBadgesTopLeft, #SOBadgesTopRight{padding:10px;}
+
+/*email preview*/
+#preview-block_c {
+  left: 0 !important;
+  top: /*145px*/ 195px !important;
+  right: 0 !important;
+  padding:0 !important;
+}
+#preview-block{
+max-width:650px !important;
+width:100% !important;
+margin:0 auto !important;	
+}
+
+/*dashboard misc*/
+#dashboardmiscADA a, #dashboardmiscADA p {
+  font-size: 12pt !important;
+  line-height: 23px;
+}
+#relactionsadatoggle{cursor:default;}
+#ADAMsgNotifBar{
+background-color:#000;
+height:45px;
+overflow:hidden;
+text-align:center;
+color:#FFF;
+font-size:12pt;
+padding-top:10px;	
+}
+#ADAMsgNotifBar span, #ADAMsgNotifBar a, #ADAMsgNotifBar a:link, #ADAMsgNotifBar a:visited, #ADAMsgNotifBar a:hover{color:#FFF;font-size:12pt;}
+/*email stuffs*/
+#email-wizard-recipients-table-header{
+width:300px;
+}
+#email-wizard-recipients-table-container {
+width: 300px;
+}
+ #email-wizard-recipients-table-header .email-wizard-recipients-actions-header {
+padding-left:0px;
+}
+#email-wizard-recipients-table-header thead {
+width: 300px; 
+}
+.email-wizard-recipients-actions {
+width: auto;
+}
+#email-wizard-contacts-table td {
+overflow: inherit;
+text-overflow: inherit;
+white-space: normal;
+display: table-cell;
+}
+#email-wizard-recipients-table td {
+overflow: hidden;
+text-overflow:ellipsis;
+white-space: normal;
+display: table-cell;
+}
+#email-wizard-recipients-table .email-wizard-recipients-email {
+width: auto;
+}
+.yui-skin-ux .contact-list-name div {
+width:auto;
+overflow:inherit;	
+text-overflow:inherit;
+white-space:normal;
+}
+.yui-skin-ux #email-contacts-content td .email-address {
+cursor: pointer;
+/*font-size: 11px;*/
+}
+div#email-contacts-content div.search input#contacts-search-text {
+width: 180px;
+}
+/*email stuffs*/
+
+/*dialog boxes*/
+#yui-gen3_c{
+	/*top:20% !important;*/
+	position:fixed !important;
+	top:50% !important;
+	left:50% !important;
+	-ms-transform: translate(-50%,-50%); /* IE 9 */
+	-webkit-transform: translate(-50%,-50%); /*Chrome, Safari, Opera */
+	transform:translate(-50%,-50%);
+}
+
+/*dialog boxes*/
+
+@media screen and (min-width: 1245px) and (max-width: 1420px){
+	.centerDiv-md{
+		padding-left:80px !important;	
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1244px){
+	.centerDiv-md{
+		padding-left:200px !important;	
+	}
+}
+
+@media screen and (max-width: 1125px){		
+	ul#hd-nav li{
+		width:120px;	
+	}
+	.yui-skin-ux #hd-nav a, .yui-skin-ux #hd-nav a:link, .yui-skin-ux #hd-nav a:visited{
+		font-size:12px;	
+	}
+}
+
+@media screen and (min-width:1005px) and (max-width:1110px){
+#preview-block_c {
+  padding-left: 125px !important;
+}
+}
+
+@media screen and (max-width:1004px){
+.yui-overlay, .yui-panel-container {
+max-width:100% !important;
+min-width:300px !important;
+width:auto !important;
+}
+#adadashboardevtsummary{font-size:12pt;padding-top:25px;}
+#ADAMsgNotifBar{
+height:auto;
+min-height:50px;
+overflow:visible;
+font-size:10pt;	
+padding-left:5px;
+padding-right:5px;
+}
+#ADAMsgNotifBar span, #ADAMsgNotifBar a, #ADAMsgNotifBar a:link, #ADAMsgNotifBar a:visited, #ADAMsgNotifBar a:hover{color:#FFF;font-size:10pt;}
+#so16logo {
+  max-width: 1004px; 
+  width: 100%;
+  float: none;
+  clear:both;
+}
+#ctamobilemenu{display:block;}
+.yui-skin-ux #hd-nav li{
+display:block;
+width:100%;	
+/*border-top: 1px solid #000;*/
+background-color:#0289AE;
+}
+.yui-skin-ux #hd-nav li{margin:0;}
+.yui-skin-ux #hd-nav a, .yui-skin-ux #hd-nav a:link, .yui-skin-ux #hd-nav a:visited, .fa{color:#FFF;}
+ul#hd-nav li > ul > li > a{
+	border:none;
+}
+.yui-skin-ux #hd-nav li {float:none;}
+
+.yui-skin-ux .ux-hd-row {
+  max-width: 1004px;
+}
+.yui-skin-ux #hd-nav{margin:0; width:100%;display:none;}
+
+ul#hd-nav ul{
+max-width:1004px;
+position:relative;
+height:auto;
+padding-left:0;
+padding-right:0;
+}
+.yui-skin-ux #hd-nav ul>li{
+background-color: #34A0BE;	
+}
+
+ul#hd-nav li > ul > li, ul#hd-nav li:hover > ul > li{	
+	width:100%;
+	margin-left:0 !important;
+	display:block;
+	/*border-top:solid 1px #FFF;*/	
+}
+#shareMyPageContentBox {
+  float: none;
+  width: 100%;
+text-align:center;
+}
+.yui-skin-ux #hd {
+  position: relative;
+  top:inherit;
+}
+#sidebar{float:none !important;/*top:inherit*/top:auto;/*position:relative;*/bottom:0;width:100% !important;height:60px;background-color:#496C89;background-image:none;}
+div.ux-main div#yui-main div#content {
+  margin-top: 0 !important; 
+}
+ul#hd-nav li a {
+  line-height: /*60px*/45px;
+}
+.yui-skin-ux #hd-nav a, .yui-skin-ux #hd-nav a:link, .yui-skin-ux #hd-nav a:visited {
+  font-size: 14pt;
+}
+.yui-skin-ux #hd-nav .selected{margin:0;}
+#so16progresspctbox, #so16progresspctboxteam, #so16progresspctboxcompany {
+  float: none;
+  margin:10px auto;
+}
+#so16progressraisedbox, #so16progressraisedboxteam, #so16progressraisedboxcompany {
+  float: none;
+  margin:10px auto;
+}
+#shareMyPageBar {
+  height: auto;
+}
+.yui-skin-ux #hd-nav .selected a, .yui-skin-ux #hd-nav .selected a:link, .yui-skin-ux #hd-nav .selected a:visited{display:inline;}
+.yui-skin-ux #hd-nav ul > li > a, .yui-skin-ux #hd-nav ul > li > a:link, .yui-skin-ux #hd-nav ul > li > a:visited{padding:0;line-height:35px;}
+#submenubarADA{background-image:none;height:auto;}
+#relactionsadatoggle{cursor:pointer;}
+#email-content, #report-content, #personalpage-content,#teampage-content, #companypage-content, #addressbookimport-content, #gift-content, #bd-donation-history {padding-left:10px;padding-right:10px;padding-top:20px;}
+#msg_cat_personal_report_label{margin-left:10px !important;margin-right:10px !important;}
+.track-progress li{clear:both;display:block;}
+.track-progress li > span:after,.track-progress li > span:before {content:none;}
+.track-progress li:last-child i{display:none;}
+.track-progress li{text-align:left;}
+.track-progress li > span{padding:0 10px;}
+}
+@media (max-width:699px){
+	.email-wizard-preview-link,#msg_cat_compose_preview_button_label{display:none;}
+	.yui-dt-col-messagesSent,.yui-dt-col-email,.yui-dt-col-messagesOpened,.yui-dt-col-clickThroughs,.yui-dt-col-donations,.yui-dt-col-amountRaised{display:none !important;}
+}
+@media (max-width:679px){
+#email-wizard-preview{display:none;}	
+}
+@media (max-width:599px){
+.ui-dialog{
+	/*left:0px;right:0px;margin-left:auto;margin-right:auto;*/
+	position:fixed !important;
+	top:30% !important;
+	left:40% !important;	
+	-ms-transform: translate(-40%,-30%); /* IE 9 */
+	-webkit-transform: translate(-40%,-30%); /*Chrome, Safari, Opera */
+	transform:translate(-40%,-30%);
+}
+.yui-skin-ux .yui-dt-liner {
+ padding:0;
+}
+#bd-donation-history #donation_history .yui-dt-liner {
+margin: 0;
+padding:0;
+}
+#bd-recent-activity .recent-activity-detail {
+    width:auto;
+}
+.yui-skin-ux .yui-dt tr th, .yui-skin-ux .yui-dt tr td {
+    padding: 0.4em 2px 0.6em 2px;
+}
+.yui-dt-label {
+    font-size: 11px;
+}
+.email-address {
+    font-size: 12px;
+}
+}
+
+@media(max-width:439px){
+#personal_video_url, #teampage_graphic_caption{width:200px;}
+}
+
+
+@media (max-width:399px){
+/*media upload*/
+.yui-skin-ux .media form{
+margin-left:0;
+margin-top:8px;	
+clear:both;float:none;
+
+}
+.yui-skin-ux .no-image{float:none;clear:both;}
+/*media upload*/
+.email-wizard #email-template-container label {
+    margin-left: 0;
+}
+
+.yui-skin-ux #email-compose-templates {
+    margin-left: 0;
+}
+.email-template-row {
+    padding: 0;
+}
+.yui-dt-liner{max-width:100px;}
+span.misc-item {
+  clear: both;
+  display: block;
+}
+}
+@media (max-width:349px) {
+#bd-donation-history #donation_history .yui-dt-liner {
+font-size:11px; 
+}
+.yui-skin-ux #email-contacts-content td .email-address {
+font-size: 11px;
+}
+}
